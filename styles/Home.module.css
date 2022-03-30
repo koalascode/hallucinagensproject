@@ -27,6 +27,21 @@
   text-align: center;
   font-family: "Bebas Neue";
   color: black;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.firstmain:hover {
+  background: -webkit-linear-gradient(rgb(253, 4, 4), rgb(0, 68, 255));
+  letter-spacing: .18in;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  
 }
 
 .flexvideowithtext {
@@ -100,4 +115,23 @@
 .linkedtext:hover {
   color: red;
   
+}
+
+.footercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2.1rem;
+}
+
+.linktext {
+  font-size: 1.55rem;
+  color: rgb(14, 151, 14);
+  cursor: pointer;
+
+  transition: all 500ms ease;
+}
+
+.linktext:hover {
+  color: rgb(4, 66, 4);
 }

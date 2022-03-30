@@ -2,16 +2,19 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
 import styles from '../styles/Home.module.css'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
     <div className={styles.container}>
         <div className={styles.individualcontainer}>
           <div className={styles.fullpagetextcontainer}>
+          <Link href="/generalinfo" passHref>
             <h1 className={styles.firstmain}><center>Hallucinogens</center></h1>
+            </Link>
           </div>
           <div className={styles.flexvideowithtext}>
-            <video src="/psychadellicsclips.mp4" loop muted autoPlay controls className={styles.mainvideo} />
+            <video src="/psychadellicsclips.mp4" loop muted autoPlay className={styles.mainvideo} />
             <div className={styles.flextextsub}>
               <h4 className={styles.sectiontwotext}>Hallucinogens can make you act in a way that is dangerous to yourself and to the people around you since they alter perceptions of reality.</h4>
             </div>
@@ -49,6 +52,7 @@ export default function Home() {
               
             </div>
           </div>
+          <Footer />
         </div>
      
     </div>

@@ -10,8 +10,8 @@ export default function LSD() {
                     <h1 className={styles.header}>LSD</h1>
             </div>
             <div className={styles.imagewithtextflex}>
-                <Image src="/lsdimage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>LSD is a something something something something something something something somethings something something something something.</p>
+                <Image src="/pcpimage.jpg" width={600} height={330}/>
+                <p className={styles.flexsidetext}>PCP is a something something something something something something something somethings something something something something.</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
@@ -29,10 +29,10 @@ export default function LSD() {
                             <li className={styles.listitemtext}>Despite its many forms, LSD is almost always consumed orally. With blotter paper, it is put under or on the tongue and then sucked on as the drug begins to take effect.</li>
                         </ul>
                     </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP is ingested via snorting, injection, smoking, and oral consumption.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP is known as a mind-altering drug, meaning that it will affect your brain and cause shifts in your mood and actions.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>LSD is most often produced in illicit, underground laboratories across the US.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>People who ingest LSD do so in order to experience mood shifts and visual hallucinations. During periods of hallucination, users of the drug will experience impacted perception of both time and their surroundings.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>If users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP works by restricting the movement of certain chemicals in a user&apos;s brain. More specifically than a hallucinogen, PCP is also referred to as a dissociative.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>“The ability to make sound judgments and see common dangers is impaired, making the user susceptible to personal injury” (DEA).</li>
                 </ul>
             </div>
                 
