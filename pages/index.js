@@ -20,33 +20,33 @@ export default function Home() {
           <div>
             <div className={styles.eachdrugflex}>
               <Image src="/lsdimage.jpg" width={600} height={380} alt="graphic of lsd"/>
-              <Link href="/" passHref>
-                <p className={styles.drugdescription}>LSD is an orally consumed hallucinagen that is used to experience mood shifts and hallucinations.</p>
-              </Link>
+             
+                <p className={styles.drugdescription}><Link href="/lsd" passHref><b className={styles.linkedtext}>LSD</b></Link> is an orally consumed hallucinagen that is used to experience mood shifts and hallucinations.</p>
+              
             </div>
             <div className={styles.eachdrugflexblack}>
-            <Link href="/" passHref>
-              <p className={styles.drugdescription}>PCP is a illegal mind-altering drug that triggers hallucinations.</p>
-            </Link>
+           
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>PCP</b></Link> is a illegal mind-altering drug that triggers hallucinations.</p>
+            
               <Image src="/pcpimage.jpg" width={600} height={380} alt="graphic of lsd"/>
             </div>
             <div className={styles.eachdrugflex}>
               <Image src="/magicmuchroomImage.jpg" width={660} height={380} alt="graphic of lsd"/>
-              <Link href="/" passHref>
-              <p className={styles.drugdescription}>Magic Mushrooms (psilocybin) are drugs made with some mushrooms that many use to gain deeper understandings of themselves.</p>
-              </Link>
+              
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Magic Mushrooms</b></Link> (psilocybin) are drugs made with some mushrooms that many use to gain deeper understandings of themselves.</p>
+             
             </div>
             <div className={styles.eachdrugflexblack}>
-              <Link href="/" passHref>
-              <p className={styles.drugdescription}>Ectasy is a synthetic drug which started as a party drug for night clubs but has spread beyond that category. </p>
-              </Link>
+              
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ectasy</b></Link> is a synthetic drug which started as a party drug for night clubs but has spread beyond that category. </p>
+              
               <Image src="/ectacyimage.jpg" width={600} height={380} alt="graphic of lsd"/>
             </div>
             <div className={styles.eachdrugflex}>
               <Image src="/ketamineimage.jpg" width={600} height={380} alt="graphic of lsd"/>
-              <Link href="/" passHref>
-              <p className={styles.drugdescription}>Ketmamine is a short-acting anesthetic that gives hallucinogenic effects. </p>
-              </Link>
+              
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ketmamine</b></Link> is a short-acting anesthetic that gives hallucinogenic effects. </p>
+              
             </div>
           </div>
         </div>

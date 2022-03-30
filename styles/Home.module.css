@@ -81,15 +81,23 @@
 }
 .drugdescription {
   max-width: 50%;
-  cursor: pointer;
-  transition: color 500ms ease;
+  
+  
 }
 
-.drugdescription:hover {
-  color: rgb(248, 47, 7);
-}
 
 .eachdrugbutton {
   width: 5rem;
   height: 3rem;
+}
+
+.linkedtext {
+  font-family: "Red Hat Mono";
+  cursor: pointer;
+  transition: color 500ms ease, size 500ms ease;
+}
+
+.linkedtext:hover {
+  color: red;
+  
 }

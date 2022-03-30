@@ -1,0 +1,47 @@
+.container {
+
+}
+
+.header {
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 2.75rem;
+}
+
+.imagewithtextflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flexsidetext {
+    max-width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+
+.centeredsectiontwo {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.listmain {
+    list-style: none;
+}
+
+.listmain li::before {
+    
+    content: attr(data-icon);
+    /* Make slightly larger than the li font-size
+    but smaller than the li gap */
+    font-size: .75em;
+    margin-left: 1rem;
+  }
+
+.listitemtext {
+    font-family: "Roboto Mono";
+    margin: 1rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
