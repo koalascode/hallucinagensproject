@@ -13,8 +13,8 @@ export default function LSD() {
                 <Image src="/lsdimage.jpg" width={600} height={330}/>
                 <p className={styles.flexsidetext}>LSD is a something something something something something something something somethings something something something something.</p>
             </div>
-            <div>
-                <h2 className={styles.centeredsectiontwo}>Important Information</h2>
+            <div className={styles.maininfocontainer}>
+                <h1 className={styles.centeredsectiontwo}>Important Information</h1>
                 <ul className={styles.listmain}>
                     <li data-icon="💊 " className={styles.listitemtext}>Street names:
                         <ul>
@@ -34,6 +34,11 @@ export default function LSD() {
                     <li data-icon="💊 " className={styles.listitemtext}>If users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>“The ability to make sound judgments and see common dangers is impaired, making the user susceptible to personal injury” (DEA).</li>
                 </ul>
+            </div>
+                
+            <div className={styles.riskscontainer}>
+                <h1 className={styles.centeredsectiontwo}>Health Risks</h1>
+                <p className={styles.risksmain}>The major health risks of LSD are something something something something something something something something something. Something something something something something something something something something something something something something something.</p> 
             </div>
         </div>
     )

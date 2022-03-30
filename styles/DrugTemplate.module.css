@@ -21,6 +21,10 @@
     
 }
 
+.maininfocontainer {
+    padding-bottom: 2rem;
+}
+
 .centeredsectiontwo {
     padding-top: 1rem;
     text-align: center;
@@ -30,11 +34,8 @@
     list-style: none;
 }
 
-.listmain li::before {
-    
+.listmain li::before { 
     content: attr(data-icon);
-    /* Make slightly larger than the li font-size
-    but smaller than the li gap */
     font-size: .75em;
     margin-left: 1rem;
   }
@@ -43,5 +44,20 @@
     font-family: "Roboto Mono";
     margin: 1rem;
     margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.riskscontainer {
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    background-color:  #284457;
+    color: white;
+}
+
+.risksmain {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3ch;
     font-size: 1.1rem;
 }
