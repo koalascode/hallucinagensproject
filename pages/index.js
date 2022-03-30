@@ -31,7 +31,7 @@ export default function Home() {
               <Image src="/pcpimage.jpg" width={600} height={380} alt="graphic of lsd"/>
             </div>
             <div className={styles.eachdrugflex}>
-              <Image src="/magicmuchroomimage.jpg" width={660} height={380} alt="graphic of lsd"/>
+              <Image src="/magicmuchroomImage.jpg" width={660} height={380} alt="graphic of lsd"/>
               <Link href="/" passHref>
               <p className={styles.drugdescription}>Magic Mushrooms (psilocybin) are drugs made with some mushrooms that many use to gain deeper understandings of themselves.</p>
               </Link>
@@ -40,18 +40,13 @@ export default function Home() {
               <Link href="/" passHref>
               <p className={styles.drugdescription}>Ectasy is a synthetic drug which started as a party drug for night clubs but has spread beyond that category. </p>
               </Link>
-           
               <Image src="/ectacyimage.jpg" width={600} height={380} alt="graphic of lsd"/>
-             
-              
             </div>
             <div className={styles.eachdrugflex}>
               <Image src="/ketamineimage.jpg" width={600} height={380} alt="graphic of lsd"/>
               <Link href="/" passHref>
               <p className={styles.drugdescription}>Ketmamine is a short-acting anesthetic that gives hallucinogenic effects. </p>
               </Link>
-              
-              
             </div>
           </div>
         </div>
