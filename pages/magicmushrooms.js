@@ -12,7 +12,7 @@ export default function MagicMushrooms() {
             </div>
             <div className={styles.imagewithtextflex}>
                 <Image src="/magicmuchroomImage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>Magic Mushrooms are a chemical that is obtained from some types of dried or fried mushrooms (these mushrooms are usually found in subtropical regions of South America, Mexico, and the United States). They are ingested orally, brewed as tea, or added to foods.</p>
+                <p className={styles.flexsidetext}>Magic Mushrooms are a chemical that is obtained from some types of dried or fried mushrooms (these mushrooms are usually found in subtropical regions of South America, Mexico, and the United States).</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
@@ -44,7 +44,7 @@ export default function MagicMushrooms() {
                             <li className={styles.listitemtext}>Therapeutic use 🗣</li>
                         </ul>
                     </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>People who ingest LSD do so in order to experience mood shifts and visual hallucinations. During periods of hallucination, users of the drug will experience impacted perception of both time and their surroundings.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>They are ingested orally, brewed as tea, or added to foods.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>If users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal.</li>
                 </ul>
             </div>
