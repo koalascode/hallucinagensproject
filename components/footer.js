@@ -16,7 +16,7 @@ export default function Footer() {
                 <p className={styles.linktext}>Magic Mushrooms</p>
             </Link>
             <Link href="/ecstacy" passHref>
-                <p className={styles.linktext}>Ecstacy</p>
+                <p className={styles.linktext}>Ecstasy</p>
             </Link>
             <Link href="/ketamine" passHref>
                 <p className={styles.linktext}>Ketamine</p>
