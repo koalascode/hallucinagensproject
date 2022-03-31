@@ -29,9 +29,7 @@ export default function PCP() {
                             <li className={styles.listitemtext}>Rocket fuel</li>
                             <li className={styles.listitemtext}>Super grass</li>
                             <li className={styles.listitemtext}>Wack</li>
-                            <li className={styles.listitemtext}>Hog</li>
-                            <li className={styles.listitemtext}>Hog</li>
-                            <li className={styles.listitemtext}>Hog</li> 
+
                         </ul>
                     </li>
                     <li data-icon="💊 " className={styles.listitemtext}>Frequently used on blotter paper. It is also often used in tablets known as microdots, sugar cubes, or in liquid.
