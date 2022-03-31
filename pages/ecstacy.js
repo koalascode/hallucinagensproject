@@ -29,12 +29,14 @@ export default function Ecstasy() {
                     <li data-icon="💊 " className={styles.listitemtext}>Most people take MDMA as a capsule or tablet, although some take it in liquid form or snort the powder. </li>
                     <li data-icon="💊 " className={styles.listitemtext}>Some people take MDMA with other drugs like alcohol or marijuana, with many thinking that it is safer than other drugs, but that is a dangerous misconception.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>MDMA affects 3 chemicals in the brain: Dopamine 🗣, Norepinephrine 🫀, and Serotonin 😀😴. </li>
+                    <li data-icon="💊 " className={styles.listitemtext}>Ecstasy is most often consumed orally or nasally via snorting.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>Ecstasy is manufactured using chemical processes.</li>
                 </ul>
             </div>
                 
             <div className={styles.riskscontainer}>
                 <h1 className={styles.centeredsectiontwo}>Health Risks</h1>
-                <p className={styles.risksmain}>High doses of MDMA can affect the body&apos;s ability to regulate temperatures, this can cause spikes in temperature which can in turn cause liver, kidney, or heart failure or even death. Like all other hallucinogens, it alters perceptions of reality, meaning that the user is at risk of harming themselves and others due to their distorted perception of reality.</p> 
+                <p className={styles.risksmain}>High doses of MDMA can affect the body&apos;s ability to regulate temperatures, this can cause spikes in temperature which can in turn cause liver, kidney, or heart failure or even death. Like all other hallucinogens, it alters perceptions of reality, meaning that the user is at risk of harming themselves and others due to their distorted perception of reality. In regards to long-term effects, due to the quick release of a large amount of serotonin during trips, the body may take a long time to replenish serotonin after a user ingests ecstasy. Ecstasy also may have a strong addictive potential, and it could potentially damage nerve cells in the brain.</p> 
             </div>
             <Footer />
             
