@@ -12,7 +12,7 @@ export default function Ketamine() {
             </div>
             <div className={styles.imagewithtextflex}>
                 <Image src="/ketamineimage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>Ketmamine is a short-acting anesthetic that gives hallucinogenic effects.</p>
+                <p className={styles.flexsidetext}>Ketamine is a short-acting anesthetic that gives hallucinogenic effects.</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
