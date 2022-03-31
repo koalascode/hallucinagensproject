@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
 import styles from "../styles/DrugTemplate.module.css"
+import Footer from '../components/footer'
 
 export default function LSD() {
     return (
@@ -29,18 +30,16 @@ export default function LSD() {
                             <li className={styles.listitemtext}>Despite its many forms, LSD is almost always consumed orally. With blotter paper, it is put under or on the tongue and then sucked on as the drug begins to take effect.</li>
                         </ul>
                     </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP is ingested via snorting, injection, smoking, and oral consumption.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP is known as a mind-altering drug, meaning that it will affect your brain and cause shifts in your mood and actions.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>If users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>PCP works by restricting the movement of certain chemicals in a user&apos;s brain. More specifically than a hallucinogen, PCP is also referred to as a dissociative.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>LSD is most often produced in illicit, underground laboratories across the US.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>People who ingest LSD do so in order to experience mood shifts and visual hallucinations. During periods of hallucination, users of the drug will experience impacted perception of both time and their surroundings.</li>
                 </ul>
             </div>
                 
             <div className={styles.riskscontainer}>
                 <h1 className={styles.centeredsectiontwo}>Health Risks</h1>
-                <p className={styles.risksmain}>The major health risks of LSD are something something something something something something something something something. Something something something something something something something something something something something something something something.</p> 
+                <p className={styles.risksmain}>When taking LSD, if users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal. According to the DEA, &quot;the ability to make sound judgments and see common dangers is impaired, making the user susceptible to personal injury&quot;. Of course, this can lead to such accidents as car crashes, especially when users are driving under the influence. This is what was seen in our skit.</p> 
             </div>
-
+            <Footer />
             
         </div>
     )

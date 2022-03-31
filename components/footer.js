@@ -9,16 +9,16 @@ export default function Footer() {
             <Link href="/lsd" passHref>
                 <p className={styles.linktext}>LSD</p>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/pcp" passHref>
                 <p className={styles.linktext}>PCP</p>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/magicmushrooms" passHref>
                 <p className={styles.linktext}>Magic Mushrooms</p>
             </Link>
-            <Link href="/" passHref>
-                <p className={styles.linktext}>Ectacy</p>
+            <Link href="/ecstacy" passHref>
+                <p className={styles.linktext}>Ecstacy</p>
             </Link>
-            <Link href="/" passHref>
+            <Link href="/ketamine" passHref>
                 <p className={styles.linktext}>Ketamine</p>
             </Link>
         </div>

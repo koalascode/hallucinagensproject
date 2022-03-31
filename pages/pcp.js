@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from "next/link"
 import styles from "../styles/DrugTemplate.module.css"
+import Footer from '../components/footer'
 
-export default function LSD() {
+export default function PCP() {
     return (
         <div className={styles.container}>
             <div>  
@@ -18,10 +19,19 @@ export default function LSD() {
                 <ul className={styles.listmain}>
                     <li data-icon="💊 " className={styles.listitemtext}>Street names:
                         <ul>
-                            <li className={styles.listitemtext}>Acid</li>
-                            <li className={styles.listitemtext}>Dots</li>
-                            <li className={styles.listitemtext}>Mellow yellow</li>
-                            <li className={styles.listitemtext}>Window pane</li> 
+                            <li className={styles.listitemtext}>Angel dust</li>
+                            <li className={styles.listitemtext}>Embalming fluid</li>
+                            <li className={styles.listitemtext}>Hog</li>
+                            <li className={styles.listitemtext}>Killer weed</li>
+                            <li className={styles.listitemtext}>Love boat</li>
+                            <li className={styles.listitemtext}>Ozone</li>
+                            <li className={styles.listitemtext}>Peace pill</li>
+                            <li className={styles.listitemtext}>Rocket fuel</li>
+                            <li className={styles.listitemtext}>Super grass</li>
+                            <li className={styles.listitemtext}>Wack</li>
+                            <li className={styles.listitemtext}>Hog</li>
+                            <li className={styles.listitemtext}>Hog</li>
+                            <li className={styles.listitemtext}>Hog</li> 
                         </ul>
                     </li>
                     <li data-icon="💊 " className={styles.listitemtext}>Frequently used on blotter paper. It is also often used in tablets known as microdots, sugar cubes, or in liquid.
@@ -41,7 +51,7 @@ export default function LSD() {
                 <p className={styles.risksmain}>The major health risks of LSD are something something something something something something something something something. Something something something something something something something something something something something something something something.</p> 
             </div>
 
-            
+            <Footer />
         </div>
     )
 }
