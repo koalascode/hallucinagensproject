@@ -50,7 +50,7 @@ export default function Home() {
             <div className={styles.eachdrugflex}>
               <Image src="/ketamineimage.jpg" width={600} height={380} alt="graphic of lsd"/>
               
-              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ketmamine</b></Link> is a short-acting anesthetic that gives hallucinogenic effects. </p>
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ketamine</b></Link> is a short-acting anesthetic that gives hallucinogenic effects. </p>
               
             </div>
           </div>
