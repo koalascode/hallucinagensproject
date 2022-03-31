@@ -12,7 +12,7 @@ export default function LSD() {
             </div>
             <div className={styles.imagewithtextflex}>
                 <Image src="/lsdimage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>LSD is a something something something something something something something somethings something something something something.</p>
+                <p className={styles.flexsidetext}>LSD is an orally consumed hallucinogen that is used to experience mood shifts and hallucinations.</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
