@@ -5,6 +5,8 @@ import styles from '../styles/Home.module.css'
 import Footer from '../components/footer'
 
 export default function Home() {
+
+
   return (
     <div className={styles.container}>
         <div className={styles.individualcontainer}>
@@ -24,7 +26,7 @@ export default function Home() {
             <div className={styles.eachdrugflex}>
               <Image src="/lsdimage.jpg" width={600} height={380} alt="graphic of lsd"/>
              
-                <p className={styles.drugdescription}><Link href="/lsd" passHref><b className={styles.linkedtext}>LSD</b></Link> is an orally consumed hallucinagen that is used to experience mood shifts and hallucinations.</p>
+                <p className={styles.drugdescription}><Link href="/lsd" passHref><b className={styles.linkedtext}>LSD</b></Link> is an orally consumed hallucinogen that is used to experience mood shifts and hallucinations.</p>
               
             </div>
             <div className={styles.eachdrugflexblack}>
@@ -41,7 +43,7 @@ export default function Home() {
             </div>
             <div className={styles.eachdrugflexblack}>
               
-              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ectasy</b></Link> is a synthetic drug which started as a party drug for night clubs but has spread beyond that category. </p>
+              <p className={styles.drugdescription}><Link href="/" passHref><b className={styles.linkedtext}>Ecstasy</b></Link> is a synthetic drug which started as a party drug for night clubs but has spread beyond that category. </p>
               
               <Image src="/ectacyimage.jpg" width={600} height={380} alt="graphic of lsd"/>
             </div>
