@@ -26,7 +26,7 @@ export default function Ketamine() {
                             <li className={styles.listitemtext}>Vitamin K</li> 
                         </ul>
                     </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>It is injected, mixed as liquid, made into powders which are snorted, mixed in drinks, or smoked. </li>
+                    <li data-icon="💊 " className={styles.listitemtext}>It is injected as a fluid and made into powders which are snorted, mixed in drinks, or smoked. </li>
                     <li data-icon="💊 " className={styles.listitemtext}>It gives hallucinatory effects that last 30-60 minutes. It distorts sight and sound, induces feelings of calmness and relaxation as well as relief from pain. It causes “trips” and that makes it used as a party drug. Trips can last about 2 hours.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>Use can cause unconsciousness, high blood presure, and dangerously slowed breathing in the short term. In the long term it can cause ulcers, pain in the bladder, kidney problems, stomach pain, depression, and poor memory. </li>
                 </ul>
