@@ -26,13 +26,9 @@ export default function Ketamine() {
                             <li className={styles.listitemtext}>Vitamin K</li> 
                         </ul>
                     </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>Frequently used on blotter paper. It is also often used in tablets known as microdots, sugar cubes, or in liquid.
-                        <ul>
-                            <li className={styles.listitemtext}>Despite its many forms, LSD is almost always consumed orally. With blotter paper, it is put under or on the tongue and then sucked on as the drug begins to take effect.</li>
-                        </ul>
-                    </li>
-                    <li data-icon="💊 " className={styles.listitemtext}>LSD is most often produced in illicit, underground laboratories across the US.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>People who ingest LSD do so in order to experience mood shifts and visual hallucinations. During periods of hallucination, users of the drug will experience impacted perception of both time and their surroundings.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>It is injected, mixed as liquid, made into powders which are snorted, mixed in drinks, or smoked. </li>
+                    <li data-icon="💊 " className={styles.listitemtext}>It gives hallucinatory effects that last 30-60 minutes. It distorts sight and sound, induces feelings of calmness and relaxation as well as relief from pain. It causes “trips” and that makes it used as a party drug. Trips can last about 2 hours.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>Use can cause unconsciousness, high blood presure, and dangerously slowed breathing in the short term. In the long term it can cause ulcers, pain in the bladder, kidney problems, stomach pain, depression, and poor memory. </li>
                 </ul>
             </div>
                 

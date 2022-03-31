@@ -52,7 +52,7 @@ export default function MagicMushrooms() {
                 
             <div className={styles.riskscontainer}>
                 <h1 className={styles.centeredsectiontwo}>Health Risks</h1>
-                <p className={styles.risksmain}>The major health risks of LSD are something something something something something something something something something. Something something something something something something something something something something something something something something.</p> 
+                <p className={styles.risksmain}>The short-term high of ingesting mushrooms involves a change in the way your senses are working, though the effects differ based on the health conditions of the person who is ingesting the drug. Other short-term effects are an increase in heart rate and blood pressure, anxiety, and chills. One long-term effect of mushrooms that is debated is potential effects on the fetuses of pregnant women who take mushrooms. Also, ingesting mushrooms with a combination of other drugs may increase health risks for a wide variety of neurological afflictions.</p> 
             </div>
             <Footer />
             
