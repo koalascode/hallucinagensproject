@@ -8,11 +8,11 @@ export default function PCP() {
     return (
         <div className={styles.container}>
             <div>  
-                    <h1 className={styles.header}>LSD</h1>
+                    <h1 className={styles.header}>PCP</h1>
             </div>
             <div className={styles.imagewithtextflex}>
                 <Image src="/pcpimage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>PCP is a something something something something something something something somethings something something something something.</p>
+                <p className={styles.flexsidetext}>PCP is a dissociative hallucinogenic drug that leads to euphoric hallucinations, and can often cause numbness, anxiety, and other health risks.</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
