@@ -32,7 +32,7 @@ export default function MagicMushrooms() {
                         <ul>
                             <li className={styles.listitemtext}>Justin Kan (co-founder of Twitch 👾)</li>
                             <li className={styles.listitemtext}>Joe Rogan (famous podcaster 🎤)</li>
-                            <li className={styles.listitemtext}>Mike Tyson (🐐🥊)</li>
+                            <li className={styles.listitemtext}>Mike Tyson (🥊🐐)</li>
                             <li className={styles.listitemtext}>and more...</li>
                         </ul>
                     </li>
