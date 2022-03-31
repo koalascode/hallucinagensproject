@@ -37,7 +37,7 @@ export default function Ketamine() {
                 
             <div className={styles.riskscontainer}>
                 <h1 className={styles.centeredsectiontwo}>Health Risks</h1>
-                <p className={styles.risksmain}>Use can cause unconsciousness, high blood presure, and dangerously slowed breathing in the short term, as well as possible fatality from an overdose. In the long term it can cause ulcers, pain in the bladder, kidney problems, stomach pain, depression, and poor memory.</p> 
+                <p className={styles.risksmain}>Use can cause unconsciousness, high blood presure, and dangerously slowed breathing in the short term, as well as possible fatality from an overdose, although that is rare. In the long term it can cause ulcers, pain in the bladder, kidney problems, stomach pain, depression, and poor memory.</p> 
             </div>
             <Footer />
             
