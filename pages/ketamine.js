@@ -8,21 +8,22 @@ export default function Ketamine() {
     return (
         <div className={styles.container}>
             <div>  
-                    <h1 className={styles.header}>LSD</h1>
+                    <h1 className={styles.header}>Ketamine</h1>
             </div>
             <div className={styles.imagewithtextflex}>
-                <Image src="/lsdimage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>LSD is a something something something something something something something somethings something something something something.</p>
+                <Image src="/ketamineimage.jpg" width={600} height={330}/>
+                <p className={styles.flexsidetext}>Ketmamine is a short-acting anesthetic that gives hallucinogenic effects.</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
                 <ul className={styles.listmain}>
                     <li data-icon="💊 " className={styles.listitemtext}>Street names:
                         <ul>
-                            <li className={styles.listitemtext}>Acid</li>
-                            <li className={styles.listitemtext}>Dots</li>
-                            <li className={styles.listitemtext}>Mellow yellow</li>
-                            <li className={styles.listitemtext}>Window pane</li> 
+                            <li className={styles.listitemtext}>K</li>
+                            <li className={styles.listitemtext}>Special K</li>
+                            <li className={styles.listitemtext}>Super K</li>
+                            <li className={styles.listitemtext}>Kit Kat</li>
+                            <li className={styles.listitemtext}>Vitamin K</li> 
                         </ul>
                     </li>
                     <li data-icon="💊 " className={styles.listitemtext}>Frequently used on blotter paper. It is also often used in tablets known as microdots, sugar cubes, or in liquid.

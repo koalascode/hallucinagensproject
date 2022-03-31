@@ -42,6 +42,7 @@ export default function PCP() {
                     <li data-icon="💊 " className={styles.listitemtext}>PCP is ingested via snorting, injection, smoking, and oral consumption.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>PCP is made in illicit laboratories, with most coming from Southern California. There is also pharmaceutical PCP that has made its way into the illegal drug market. Nonetheless, it is still being used medically in veterinary practices.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>PCP works by restricting the movement of certain chemicals in a user&apos;s brain.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>It is manufactured using chemical processes.</li>
                 </ul>
             </div>
                 

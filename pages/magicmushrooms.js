@@ -12,7 +12,7 @@ export default function MagicMushrooms() {
             </div>
             <div className={styles.imagewithtextflex}>
                 <Image src="/magicmuchroomImage.jpg" width={600} height={330}/>
-                <p className={styles.flexsidetext}>Magic Mushrooms are a chemical that is obtained from some types of dried or fried mushrooms (these mushrooms are usually found in subtropical regions of South America, Mexico, and the United States).</p>
+                <p className={styles.flexsidetext}>Magic Mushrooms are a fungi which have psylociben that is obtained from some types of dried or fried mushrooms (these mushrooms are usually found in subtropical regions of South America, Mexico, and the United States).</p>
             </div>
             <div className={styles.maininfocontainer}>
                 <h1 className={styles.centeredsectiontwo}>Important Information</h1>
@@ -45,7 +45,8 @@ export default function MagicMushrooms() {
                         </ul>
                     </li>
                     <li data-icon="💊 " className={styles.listitemtext}>They are ingested orally, brewed as tea, or added to foods.</li>
-                    <li data-icon="💊 " className={styles.listitemtext}>If users overdose, they will experience more severe and longer trips, and occasionally consequences are fatal.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>Mushrooms are most commonly imported from subtropical and tropical regions, where they grow naturally. People harvest them, often in large numbers.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>The chemical in mushrooms that causes highs is known as psilocybin, and it can also be extracted from mushrooms and taken straight. When specifically talking about mushrooms, however, the principal physical form is simply the mushrooms themselves, which can be eaten.</li>
                 </ul>
             </div>
                 

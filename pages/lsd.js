@@ -31,6 +31,7 @@ export default function LSD() {
                         </ul>
                     </li>
                     <li data-icon="💊 " className={styles.listitemtext}>LSD is most often produced in illicit, underground laboratories across the US.</li>
+                    <li data-icon="💊 " className={styles.listitemtext}>It is manufactured using chemical processes.</li>
                     <li data-icon="💊 " className={styles.listitemtext}>People who ingest LSD do so in order to experience mood shifts and visual hallucinations. During periods of hallucination, users of the drug will experience impacted perception of both time and their surroundings.</li>
                 </ul>
             </div>
