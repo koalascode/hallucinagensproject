@@ -6,6 +6,12 @@ import styles from '../styles/Home.module.css'
 export default function Footer() {
     return (
         <div className={styles.footercontainer}>
+             <Link href="/" passHref>
+                <p className={styles.linktext}>Home</p> 
+            </Link>
+             <Link href="/sources" passHref>
+                <p className={styles.linktext}>Sources</p> 
+            </Link>
             <Link href="/lsd" passHref>
                 <p className={styles.linktext}>LSD</p>
             </Link>
@@ -21,9 +27,7 @@ export default function Footer() {
             <Link href="/ketamine" passHref>
                 <p className={styles.linktext}>Ketamine</p>
             </Link>
-            <Link href="/" passHref>
-                <p className={styles.linktext}>Home</p> 
-            </Link>
+           
         </div>
     )
 }
