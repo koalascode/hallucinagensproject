@@ -133,11 +133,12 @@
   color: rgb(14, 151, 14);
   cursor: pointer;
 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: all 500ms ease;
 }
 
 .linktext:hover {
   color: rgb(187, 23, 224);
   transform: translateY(-.25rem);
-  box-shadow: 2px 4px rgb(141, 140, 140);
+  box-shadow: 8px 5px 5px rgb(14, 151, 14);
 }
