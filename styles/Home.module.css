@@ -137,5 +137,7 @@
 }
 
 .linktext:hover {
-  color: rgb(4, 66, 4);
+  color: rgb(187, 23, 224);
+  transform: translateY(-.25rem);
+  box-shadow: 2px 4px rgb(141, 140, 140);
 }
