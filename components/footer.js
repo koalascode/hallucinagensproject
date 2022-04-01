@@ -21,6 +21,9 @@ export default function Footer() {
             <Link href="/ketamine" passHref>
                 <p className={styles.linktext}>Ketamine</p>
             </Link>
+            <Link href="/" passHref>
+                <p className={styles.linktext}>Home</p> 
+            </Link>
         </div>
     )
 }
