@@ -9,7 +9,7 @@ export default function General() {
     return (
         <div className={styles.container}>
             <div>
-               <Image src="/screenshot.png" width={800} height={600} layout="responsive" className={styles.mainimage}/> 
+               <Image src="/screenshot.png" width={790} height={630} layout="responsive" className={styles.mainimage}/> 
             </div>
             <Footer />
         </div>

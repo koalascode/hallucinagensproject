@@ -24,6 +24,8 @@ export default function Sources() {
                         <li data-icon="📝 " className={styles.listitemtext}>phillyvoice.com/philly-fentanyl-overdose-deaths-heroin-meth-pcp-/</li>
                         <li data-icon="📝 " className={styles.listitemtext}>webmd.com/depression/features/what-does-ketamine-do-your-brain</li>
                 </ul>
+                <br /><br />
+                <Footer />
         </div>
     )
 }
